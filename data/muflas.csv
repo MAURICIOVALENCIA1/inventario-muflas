@@ -1,0 +1,6 @@
+id_mufla,tipo,barrio,direccion_referencia,numero_poste,latitud,longitud,cable_entrada,cable_salida,fibras_empalmadas,estado,fecha_instalacion,fecha_ultimo_trabajo,tecnico_responsable,url_foto,observaciones
+MF-CALI-FLO-0001,aerea,La Flora,Esquina de referencia Calle 52 con Avenida 4 Norte,PF-001,3.4789,-76.5251,CALI-FLO-TR01,CALI-FLO-TR02,24,activa,2024-01-15,2025-02-10,Tecnico de ejemplo,,DATO DE EJEMPLO: validar ubicación y datos en campo
+MF-CALI-FLO-0002,subterranea,La Flora,Cerca del parque del barrio La Flora,,3.4812,-76.5218,CALI-FLO-TR02,CALI-FLO-TR03,12,activa,2024-02-20,2025-01-18,Tecnico de ejemplo,,DATO DE EJEMPLO: validar ubicación y datos en campo
+MF-CALI-FLO-0003,pedestal,La Flora,Referencia sobre la Avenida 6 Norte,,3.4841,-76.5240,CALI-FLO-TR03,CALI-FLO-TR04,48,mantenimiento,2024-03-05,2025-03-12,Tecnico de ejemplo,,DATO DE EJEMPLO: validar ubicación y datos en campo
+MF-CALI-FLO-0004,aerea,La Flora,Referencia cerca de Calle 48 Norte,PF-004,3.4768,-76.5189,CALI-FLO-TR04,CALI-FLO-TR05,24,activa,2024-04-11,2025-02-22,Tecnico de ejemplo,,DATO DE EJEMPLO: validar ubicación y datos en campo
+MF-CALI-FLO-0005,subterranea,La Flora,Referencia cerca de Avenida 3 Norte,,3.4800,-76.5290,CALI-FLO-TR05,CALI-FLO-TR06,12,activa,2024-05-09,2025-03-01,Tecnico de ejemplo,,DATO DE EJEMPLO: validar ubicación y datos en campo
