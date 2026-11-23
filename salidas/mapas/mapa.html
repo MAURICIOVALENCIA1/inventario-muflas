@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2ae609ae3ca9084eb440cc7664d58b17 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position:fixed;top:10px;left:50px;z-index:9999;
+                background:#7f1d1d;color:white;padding:10px 14px;
+                border:2px solid white;border-radius:5px;font-weight:bold;
+                box-shadow:0 1px 5px #555;">
+      CLUSTER FICTICIO — NO REPRESENTA LA RED REAL — NO USAR EN CAMPO
+    </div>
+    
+    
+            <div class="folium-map" id="map_2ae609ae3ca9084eb440cc7664d58b17" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2ae609ae3ca9084eb440cc7664d58b17 = L.map(
+                "map_2ae609ae3ca9084eb440cc7664d58b17",
+                {
+                    center: [3.480336363636363, -76.52334545454545],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fe417404df58a154fb8cc824b9551295 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fe417404df58a154fb8cc824b9551295.addTo(map_2ae609ae3ca9084eb440cc7664d58b17);
+        
+    
+            var feature_group_06e5f4fd1bef2162d90874484303134d = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_c803caaef59eeb5d5fa2927ada6fb54d = L.polyline(
+                [[3.4789, -76.5251], [3.4795, -76.524], [3.4802, -76.523], [3.4812, -76.5218]],
+                {"bubblingMouseEvents": true, "color": "#d97706", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#d97706", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(feature_group_06e5f4fd1bef2162d90874484303134d);
+        
+    
+        var popup_390b25da7fd60e23080f27fe9ef87920 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9c513235a7d586da86557911bdd1781e = $(`<div id="html_9c513235a7d586da86557911bdd1781e" style="width: 100.0%; height: 100.0%;"><b>TR-FLO-001</b><br/>TRAZADO FICTICIO<br/>Cable: CALI-FLO-TR01<br/>MF-CALI-FLO-0001 → MF-CALI-FLO-0002<br/>Tipo: troncal<br/>DATO FICTICIO: recorrido esquemático inventado</div>`)[0];
+                popup_390b25da7fd60e23080f27fe9ef87920.setContent(html_9c513235a7d586da86557911bdd1781e);
+            
+        
+
+        poly_line_c803caaef59eeb5d5fa2927ada6fb54d.bindPopup(popup_390b25da7fd60e23080f27fe9ef87920)
+        ;
+
+        
+    
+    
+            poly_line_c803caaef59eeb5d5fa2927ada6fb54d.bindTooltip(
+                `<div>
+                     CALI-FLO-TR01: MF-CALI-FLO-0001 → MF-CALI-FLO-0002
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f47ea07358fea952fc56e1aa746883fe = L.polyline(
+                [[3.4812, -76.5218], [3.482, -76.522], [3.483, -76.5228], [3.4841, -76.524]],
+                {"bubblingMouseEvents": true, "color": "#d97706", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#d97706", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(feature_group_06e5f4fd1bef2162d90874484303134d);
+        
+    
+        var popup_95772cdce30ddaa4f5b0e4f297814e3d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b5b1a8954ce30d583b4ff245add32faa = $(`<div id="html_b5b1a8954ce30d583b4ff245add32faa" style="width: 100.0%; height: 100.0%;"><b>TR-FLO-002</b><br/>TRAZADO FICTICIO<br/>Cable: CALI-FLO-TR02<br/>MF-CALI-FLO-0002 → MF-CALI-FLO-0003<br/>Tipo: troncal<br/>DATO FICTICIO: recorrido esquemático inventado</div>`)[0];
+                popup_95772cdce30ddaa4f5b0e4f297814e3d.setContent(html_b5b1a8954ce30d583b4ff245add32faa);
+            
+        
+
+        poly_line_f47ea07358fea952fc56e1aa746883fe.bindPopup(popup_95772cdce30ddaa4f5b0e4f297814e3d)
+        ;
+
+        
+    
+    
+            poly_line_f47ea07358fea952fc56e1aa746883fe.bindTooltip(
+                `<div>
+                     CALI-FLO-TR02: MF-CALI-FLO-0002 → MF-CALI-FLO-0003
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_7e66019e75d39f1db552ede9836b20fe = L.polyline(
+                [[3.4841, -76.524], [3.4828, -76.5225], [3.481, -76.521], [3.479, -76.52], [3.4768, -76.5189]],
+                {"bubblingMouseEvents": true, "color": "#d97706", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#d97706", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(feature_group_06e5f4fd1bef2162d90874484303134d);
+        
+    
+        var popup_cf4dbf569c3c1e19c531da21c135592f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_380509ac3bef8bd338b22c2d1d043e91 = $(`<div id="html_380509ac3bef8bd338b22c2d1d043e91" style="width: 100.0%; height: 100.0%;"><b>TR-FLO-003</b><br/>TRAZADO FICTICIO<br/>Cable: CALI-FLO-TR03<br/>MF-CALI-FLO-0003 → MF-CALI-FLO-0004<br/>Tipo: troncal<br/>DATO FICTICIO: recorrido esquemático inventado</div>`)[0];
+                popup_cf4dbf569c3c1e19c531da21c135592f.setContent(html_380509ac3bef8bd338b22c2d1d043e91);
+            
+        
+
+        poly_line_7e66019e75d39f1db552ede9836b20fe.bindPopup(popup_cf4dbf569c3c1e19c531da21c135592f)
+        ;
+
+        
+    
+    
+            poly_line_7e66019e75d39f1db552ede9836b20fe.bindTooltip(
+                `<div>
+                     CALI-FLO-TR03: MF-CALI-FLO-0003 → MF-CALI-FLO-0004
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_e0c1707f6358654ced10fa3e3b2726ec = L.polyline(
+                [[3.4768, -76.5189], [3.4775, -76.521], [3.4786, -76.524], [3.48, -76.529]],
+                {"bubblingMouseEvents": true, "color": "#d97706", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#d97706", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(feature_group_06e5f4fd1bef2162d90874484303134d);
+        
+    
+        var popup_8f6ef4c80277bff8cb2638c6426c77b0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a29f3d7af32f2e7fe0bb82d32a35147b = $(`<div id="html_a29f3d7af32f2e7fe0bb82d32a35147b" style="width: 100.0%; height: 100.0%;"><b>TR-FLO-004</b><br/>TRAZADO FICTICIO<br/>Cable: CALI-FLO-TR04<br/>MF-CALI-FLO-0004 → MF-CALI-FLO-0005<br/>Tipo: troncal<br/>DATO FICTICIO: recorrido esquemático inventado</div>`)[0];
+                popup_8f6ef4c80277bff8cb2638c6426c77b0.setContent(html_a29f3d7af32f2e7fe0bb82d32a35147b);
+            
+        
+
+        poly_line_e0c1707f6358654ced10fa3e3b2726ec.bindPopup(popup_8f6ef4c80277bff8cb2638c6426c77b0)
+        ;
+
+        
+    
+    
+            poly_line_e0c1707f6358654ced10fa3e3b2726ec.bindTooltip(
+                `<div>
+                     CALI-FLO-TR04: MF-CALI-FLO-0004 → MF-CALI-FLO-0005
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_7972098a82709adcc9ddf28cae117599 = L.polyline(
+                [[3.4789, -76.5251], [3.4792, -76.5248], [3.4795, -76.5245]],
+                {"bubblingMouseEvents": true, "color": "#16803c", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#16803c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_06e5f4fd1bef2162d90874484303134d);
+        
+    
+        var popup_3458ee27e5168d3d2b620df1d23bbe62 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_dec8421ab58c5d382a0937cdf6cd0a02 = $(`<div id="html_dec8421ab58c5d382a0937cdf6cd0a02" style="width: 100.0%; height: 100.0%;"><b>BR-FLO-001</b><br/>TRAZADO FICTICIO<br/>Cable: CALI-FLO-DIST-01<br/>MF-CALI-FLO-0001 → NAP-CALI-FLO-0001<br/>Tipo: distribucion<br/>DATO FICTICIO: ramal de demostración</div>`)[0];
+                popup_3458ee27e5168d3d2b620df1d23bbe62.setContent(html_dec8421ab58c5d382a0937cdf6cd0a02);
+            
+        
+
+        poly_line_7972098a82709adcc9ddf28cae117599.bindPopup(popup_3458ee27e5168d3d2b620df1d23bbe62)
+        ;
+
+        
+    
+    
+            poly_line_7972098a82709adcc9ddf28cae117599.bindTooltip(
+                `<div>
+                     CALI-FLO-DIST-01: MF-CALI-FLO-0001 → NAP-CALI-FLO-0001
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2b851861fce12c7cb6a9af61442dc12c = L.polyline(
+                [[3.4812, -76.5218], [3.481, -76.5221], [3.4807, -76.5223]],
+                {"bubblingMouseEvents": true, "color": "#16803c", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#16803c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_06e5f4fd1bef2162d90874484303134d);
+        
+    
+        var popup_aa73af3c6a55ebecd4d2325a0d23c5bd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d4f7720df9902ea71c72246921e6a5e7 = $(`<div id="html_d4f7720df9902ea71c72246921e6a5e7" style="width: 100.0%; height: 100.0%;"><b>BR-FLO-002</b><br/>TRAZADO FICTICIO<br/>Cable: CALI-FLO-DIST-02<br/>MF-CALI-FLO-0002 → NAP-CALI-FLO-0002<br/>Tipo: distribucion<br/>DATO FICTICIO: ramal de demostración</div>`)[0];
+                popup_aa73af3c6a55ebecd4d2325a0d23c5bd.setContent(html_d4f7720df9902ea71c72246921e6a5e7);
+            
+        
+
+        poly_line_2b851861fce12c7cb6a9af61442dc12c.bindPopup(popup_aa73af3c6a55ebecd4d2325a0d23c5bd)
+        ;
+
+        
+    
+    
+            poly_line_2b851861fce12c7cb6a9af61442dc12c.bindTooltip(
+                `<div>
+                     CALI-FLO-DIST-02: MF-CALI-FLO-0002 → NAP-CALI-FLO-0002
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_27d4c0618bdfb29bf4521e3c809d2ea8 = L.polyline(
+                [[3.4812, -76.5218], [3.4816, -76.5213], [3.482, -76.5208]],
+                {"bubblingMouseEvents": true, "color": "#16803c", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#16803c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_06e5f4fd1bef2162d90874484303134d);
+        
+    
+        var popup_668af9dc21afc12d1aa40e9b54896da3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_bcf0f08b1c65b693cc04d1d2aae207d8 = $(`<div id="html_bcf0f08b1c65b693cc04d1d2aae207d8" style="width: 100.0%; height: 100.0%;"><b>BR-FLO-003</b><br/>TRAZADO FICTICIO<br/>Cable: CALI-FLO-DIST-03<br/>MF-CALI-FLO-0002 → NAP-CALI-FLO-0003<br/>Tipo: distribucion<br/>DATO FICTICIO: ramal de demostración</div>`)[0];
+                popup_668af9dc21afc12d1aa40e9b54896da3.setContent(html_bcf0f08b1c65b693cc04d1d2aae207d8);
+            
+        
+
+        poly_line_27d4c0618bdfb29bf4521e3c809d2ea8.bindPopup(popup_668af9dc21afc12d1aa40e9b54896da3)
+        ;
+
+        
+    
+    
+            poly_line_27d4c0618bdfb29bf4521e3c809d2ea8.bindTooltip(
+                `<div>
+                     CALI-FLO-DIST-03: MF-CALI-FLO-0002 → NAP-CALI-FLO-0003
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_520a935894de01e2652dda5ad7f48351 = L.polyline(
+                [[3.4841, -76.524], [3.4837, -76.5238], [3.4833, -76.5235]],
+                {"bubblingMouseEvents": true, "color": "#16803c", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#16803c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_06e5f4fd1bef2162d90874484303134d);
+        
+    
+        var popup_c12ee511a582b7fe63adf64eb129bb80 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7f31081edf38248eb750079997d85e26 = $(`<div id="html_7f31081edf38248eb750079997d85e26" style="width: 100.0%; height: 100.0%;"><b>BR-FLO-004</b><br/>TRAZADO FICTICIO<br/>Cable: CALI-FLO-DIST-04<br/>MF-CALI-FLO-0003 → NAP-CALI-FLO-0004<br/>Tipo: distribucion<br/>DATO FICTICIO: ramal de demostración</div>`)[0];
+                popup_c12ee511a582b7fe63adf64eb129bb80.setContent(html_7f31081edf38248eb750079997d85e26);
+            
+        
+
+        poly_line_520a935894de01e2652dda5ad7f48351.bindPopup(popup_c12ee511a582b7fe63adf64eb129bb80)
+        ;
+
+        
+    
+    
+            poly_line_520a935894de01e2652dda5ad7f48351.bindTooltip(
+                `<div>
+                     CALI-FLO-DIST-04: MF-CALI-FLO-0003 → NAP-CALI-FLO-0004
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_67235ea39de31a8db41b8b6fde969d2a = L.polyline(
+                [[3.4768, -76.5189], [3.4772, -76.5192], [3.4776, -76.5197]],
+                {"bubblingMouseEvents": true, "color": "#16803c", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#16803c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_06e5f4fd1bef2162d90874484303134d);
+        
+    
+        var popup_584d49a5c5323f0832f389d2e0a97df8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f68994e4eecd0d13b710749280d2e83e = $(`<div id="html_f68994e4eecd0d13b710749280d2e83e" style="width: 100.0%; height: 100.0%;"><b>BR-FLO-005</b><br/>TRAZADO FICTICIO<br/>Cable: CALI-FLO-DIST-05<br/>MF-CALI-FLO-0004 → NAP-CALI-FLO-0005<br/>Tipo: distribucion<br/>DATO FICTICIO: ramal de demostración</div>`)[0];
+                popup_584d49a5c5323f0832f389d2e0a97df8.setContent(html_f68994e4eecd0d13b710749280d2e83e);
+            
+        
+
+        poly_line_67235ea39de31a8db41b8b6fde969d2a.bindPopup(popup_584d49a5c5323f0832f389d2e0a97df8)
+        ;
+
+        
+    
+    
+            poly_line_67235ea39de31a8db41b8b6fde969d2a.bindTooltip(
+                `<div>
+                     CALI-FLO-DIST-05: MF-CALI-FLO-0004 → NAP-CALI-FLO-0005
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_8b84c491a50d609c0ad06230562c8f3e = L.polyline(
+                [[3.48, -76.529], [3.4798, -76.528], [3.4796, -76.5272]],
+                {"bubblingMouseEvents": true, "color": "#16803c", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#16803c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_06e5f4fd1bef2162d90874484303134d);
+        
+    
+        var popup_08a1a33947221eeed4021808433a4ea0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_89fdbbd017a21f295bc7d1576f35354f = $(`<div id="html_89fdbbd017a21f295bc7d1576f35354f" style="width: 100.0%; height: 100.0%;"><b>BR-FLO-006</b><br/>TRAZADO FICTICIO<br/>Cable: CALI-FLO-DIST-06<br/>MF-CALI-FLO-0005 → NAP-CALI-FLO-0006<br/>Tipo: distribucion<br/>DATO FICTICIO: ramal de demostración</div>`)[0];
+                popup_08a1a33947221eeed4021808433a4ea0.setContent(html_89fdbbd017a21f295bc7d1576f35354f);
+            
+        
+
+        poly_line_8b84c491a50d609c0ad06230562c8f3e.bindPopup(popup_08a1a33947221eeed4021808433a4ea0)
+        ;
+
+        
+    
+    
+            poly_line_8b84c491a50d609c0ad06230562c8f3e.bindTooltip(
+                `<div>
+                     CALI-FLO-DIST-06: MF-CALI-FLO-0005 → NAP-CALI-FLO-0006
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_06e5f4fd1bef2162d90874484303134d.addTo(map_2ae609ae3ca9084eb440cc7664d58b17);
+        
+    
+            var feature_group_4c6a5918bb4b7926c2c7b64571eefa04 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_9dfaed4bfec43a89584950a672cc47c4 = L.marker(
+                [3.4789, -76.5251],
+                {
+}
+            ).addTo(feature_group_4c6a5918bb4b7926c2c7b64571eefa04);
+        
+    
+            var icon_ad6d2f1d855942ab3e94ec5964d5a921 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "link",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6e692db2acccc3828feb1f7cb0ae608f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4c3e246938879cc6160a652e3d4576a3 = $(`<div id="html_4c3e246938879cc6160a652e3d4576a3" style="width: 100.0%; height: 100.0%;"><b>id_mufla</b>: MF-CALI-FLO-0001<br><b>tipo</b>: aerea<br><b>barrio</b>: La Flora<br><b>direccion_referencia</b>: Esquina de referencia Calle 52 con Avenida 4 Norte<br><b>numero_poste</b>: PF-001<br><b>latitud</b>: 3.4789<br><b>longitud</b>: -76.5251<br><b>cable_entrada</b>: CALI-FLO-TR01<br><b>cable_salida</b>: CALI-FLO-TR02<br><b>fibras_empalmadas</b>: 24<br><b>estado</b>: activa<br><b>fecha_instalacion</b>: 2024-01-15<br><b>fecha_ultimo_trabajo</b>: 2025-02-10<br><b>tecnico_responsable</b>: Tecnico de ejemplo<br><b>observaciones</b>: DATO DE EJEMPLO: validar ubicación y datos en campo<br><a href="https://www.google.com/maps?q=3.4789,-76.5251" target="_blank" rel="noopener">Cómo llegar</a></div>`)[0];
+                popup_6e692db2acccc3828feb1f7cb0ae608f.setContent(html_4c3e246938879cc6160a652e3d4576a3);
+            
+        
+
+        marker_9dfaed4bfec43a89584950a672cc47c4.bindPopup(popup_6e692db2acccc3828feb1f7cb0ae608f)
+        ;
+
+        
+    
+    
+            marker_9dfaed4bfec43a89584950a672cc47c4.bindTooltip(
+                `<div>
+                     MF-CALI-FLO-0001
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9dfaed4bfec43a89584950a672cc47c4.setIcon(icon_ad6d2f1d855942ab3e94ec5964d5a921);
+            
+    
+            var marker_968094f07dacf5098107e9529acf9ddd = L.marker(
+                [3.4812, -76.5218],
+                {
+}
+            ).addTo(feature_group_4c6a5918bb4b7926c2c7b64571eefa04);
+        
+    
+            var icon_2ac39f45666a3e94a7c89669cc331ef4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "link",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6e0136ae34f0f59fa8329acfe03fbed9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2cd7bc8bdde4c6d707c73c6e48bf0a4a = $(`<div id="html_2cd7bc8bdde4c6d707c73c6e48bf0a4a" style="width: 100.0%; height: 100.0%;"><b>id_mufla</b>: MF-CALI-FLO-0002<br><b>tipo</b>: subterranea<br><b>barrio</b>: La Flora<br><b>direccion_referencia</b>: Cerca del parque del barrio La Flora<br><b>latitud</b>: 3.4812<br><b>longitud</b>: -76.5218<br><b>cable_entrada</b>: CALI-FLO-TR02<br><b>cable_salida</b>: CALI-FLO-TR03<br><b>fibras_empalmadas</b>: 12<br><b>estado</b>: activa<br><b>fecha_instalacion</b>: 2024-02-20<br><b>fecha_ultimo_trabajo</b>: 2025-01-18<br><b>tecnico_responsable</b>: Tecnico de ejemplo<br><b>observaciones</b>: DATO DE EJEMPLO: validar ubicación y datos en campo<br><a href="https://www.google.com/maps?q=3.4812,-76.5218" target="_blank" rel="noopener">Cómo llegar</a></div>`)[0];
+                popup_6e0136ae34f0f59fa8329acfe03fbed9.setContent(html_2cd7bc8bdde4c6d707c73c6e48bf0a4a);
+            
+        
+
+        marker_968094f07dacf5098107e9529acf9ddd.bindPopup(popup_6e0136ae34f0f59fa8329acfe03fbed9)
+        ;
+
+        
+    
+    
+            marker_968094f07dacf5098107e9529acf9ddd.bindTooltip(
+                `<div>
+                     MF-CALI-FLO-0002
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_968094f07dacf5098107e9529acf9ddd.setIcon(icon_2ac39f45666a3e94a7c89669cc331ef4);
+            
+    
+            var marker_d9ce82967ef4c803422a678cf737e9b7 = L.marker(
+                [3.4841, -76.524],
+                {
+}
+            ).addTo(feature_group_4c6a5918bb4b7926c2c7b64571eefa04);
+        
+    
+            var icon_87edd949f81b281ccdc28eb00cbb8367 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "link",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4cbc53ad0637d8207d3bcd1230f520cb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_720d1d38d0aebc6ea624d2aaa6425d06 = $(`<div id="html_720d1d38d0aebc6ea624d2aaa6425d06" style="width: 100.0%; height: 100.0%;"><b>id_mufla</b>: MF-CALI-FLO-0003<br><b>tipo</b>: pedestal<br><b>barrio</b>: La Flora<br><b>direccion_referencia</b>: Referencia sobre la Avenida 6 Norte<br><b>latitud</b>: 3.4841<br><b>longitud</b>: -76.524<br><b>cable_entrada</b>: CALI-FLO-TR03<br><b>cable_salida</b>: CALI-FLO-TR04<br><b>fibras_empalmadas</b>: 48<br><b>estado</b>: mantenimiento<br><b>fecha_instalacion</b>: 2024-03-05<br><b>fecha_ultimo_trabajo</b>: 2025-03-12<br><b>tecnico_responsable</b>: Tecnico de ejemplo<br><b>observaciones</b>: DATO DE EJEMPLO: validar ubicación y datos en campo<br><a href="https://www.google.com/maps?q=3.4841,-76.524" target="_blank" rel="noopener">Cómo llegar</a></div>`)[0];
+                popup_4cbc53ad0637d8207d3bcd1230f520cb.setContent(html_720d1d38d0aebc6ea624d2aaa6425d06);
+            
+        
+
+        marker_d9ce82967ef4c803422a678cf737e9b7.bindPopup(popup_4cbc53ad0637d8207d3bcd1230f520cb)
+        ;
+
+        
+    
+    
+            marker_d9ce82967ef4c803422a678cf737e9b7.bindTooltip(
+                `<div>
+                     MF-CALI-FLO-0003
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d9ce82967ef4c803422a678cf737e9b7.setIcon(icon_87edd949f81b281ccdc28eb00cbb8367);
+            
+    
+            var marker_241061dc3b400d1e5d361d429ddf27d9 = L.marker(
+                [3.4768, -76.5189],
+                {
+}
+            ).addTo(feature_group_4c6a5918bb4b7926c2c7b64571eefa04);
+        
+    
+            var icon_2a2039faa1e0507f33a8b9f56d854c4e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "link",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd5c8cb82c3914043490227d83c07e70 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e5e7f313fa7c27fdca339426ea68966d = $(`<div id="html_e5e7f313fa7c27fdca339426ea68966d" style="width: 100.0%; height: 100.0%;"><b>id_mufla</b>: MF-CALI-FLO-0004<br><b>tipo</b>: aerea<br><b>barrio</b>: La Flora<br><b>direccion_referencia</b>: Referencia cerca de Calle 48 Norte<br><b>numero_poste</b>: PF-004<br><b>latitud</b>: 3.4768<br><b>longitud</b>: -76.5189<br><b>cable_entrada</b>: CALI-FLO-TR04<br><b>cable_salida</b>: CALI-FLO-TR05<br><b>fibras_empalmadas</b>: 24<br><b>estado</b>: activa<br><b>fecha_instalacion</b>: 2024-04-11<br><b>fecha_ultimo_trabajo</b>: 2025-02-22<br><b>tecnico_responsable</b>: Tecnico de ejemplo<br><b>observaciones</b>: DATO DE EJEMPLO: validar ubicación y datos en campo<br><a href="https://www.google.com/maps?q=3.4768,-76.5189" target="_blank" rel="noopener">Cómo llegar</a></div>`)[0];
+                popup_dd5c8cb82c3914043490227d83c07e70.setContent(html_e5e7f313fa7c27fdca339426ea68966d);
+            
+        
+
+        marker_241061dc3b400d1e5d361d429ddf27d9.bindPopup(popup_dd5c8cb82c3914043490227d83c07e70)
+        ;
+
+        
+    
+    
+            marker_241061dc3b400d1e5d361d429ddf27d9.bindTooltip(
+                `<div>
+                     MF-CALI-FLO-0004
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_241061dc3b400d1e5d361d429ddf27d9.setIcon(icon_2a2039faa1e0507f33a8b9f56d854c4e);
+            
+    
+            var marker_d21f1795e332ba62e063be512744dc7c = L.marker(
+                [3.48, -76.529],
+                {
+}
+            ).addTo(feature_group_4c6a5918bb4b7926c2c7b64571eefa04);
+        
+    
+            var icon_13218c1ddf0847311749783471c5f9cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "link",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_95e2ebaa0a7aefeeead8c326ee911db5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_deff52816395e19d27922f8c2309c8d7 = $(`<div id="html_deff52816395e19d27922f8c2309c8d7" style="width: 100.0%; height: 100.0%;"><b>id_mufla</b>: MF-CALI-FLO-0005<br><b>tipo</b>: subterranea<br><b>barrio</b>: La Flora<br><b>direccion_referencia</b>: Referencia cerca de Avenida 3 Norte<br><b>latitud</b>: 3.48<br><b>longitud</b>: -76.529<br><b>cable_entrada</b>: CALI-FLO-TR05<br><b>cable_salida</b>: CALI-FLO-TR06<br><b>fibras_empalmadas</b>: 12<br><b>estado</b>: activa<br><b>fecha_instalacion</b>: 2024-05-09<br><b>fecha_ultimo_trabajo</b>: 2025-03-01<br><b>tecnico_responsable</b>: Tecnico de ejemplo<br><b>observaciones</b>: DATO DE EJEMPLO: validar ubicación y datos en campo<br><a href="https://www.google.com/maps?q=3.48,-76.529" target="_blank" rel="noopener">Cómo llegar</a></div>`)[0];
+                popup_95e2ebaa0a7aefeeead8c326ee911db5.setContent(html_deff52816395e19d27922f8c2309c8d7);
+            
+        
+
+        marker_d21f1795e332ba62e063be512744dc7c.bindPopup(popup_95e2ebaa0a7aefeeead8c326ee911db5)
+        ;
+
+        
+    
+    
+            marker_d21f1795e332ba62e063be512744dc7c.bindTooltip(
+                `<div>
+                     MF-CALI-FLO-0005
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d21f1795e332ba62e063be512744dc7c.setIcon(icon_13218c1ddf0847311749783471c5f9cc);
+            
+    
+            feature_group_4c6a5918bb4b7926c2c7b64571eefa04.addTo(map_2ae609ae3ca9084eb440cc7664d58b17);
+        
+    
+            var feature_group_b6e9b1a939ce94192bdc080fdaabe1cf = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_52de1b7115cf3e58e9d57a0202943cc1 = L.circleMarker(
+                [3.4795, -76.5245],
+                {"bubblingMouseEvents": true, "color": "#16803c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#16803c", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b6e9b1a939ce94192bdc080fdaabe1cf);
+        
+    
+        var popup_f8e48f8e343e70e39bc0e1cb83d7b645 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a798e71f63bfcdabb74a447a2b8bd17e = $(`<div id="html_a798e71f63bfcdabb74a447a2b8bd17e" style="width: 100.0%; height: 100.0%;"><b>NAP-CALI-FLO-0001</b><br/>Cluster ficticio: CL-CALI-FLO-01<br/>Mufla alimentadora: MF-CALI-FLO-0001<br/>DATO FICTICIO: ubicación y conexión inventadas para demostración</div>`)[0];
+                popup_f8e48f8e343e70e39bc0e1cb83d7b645.setContent(html_a798e71f63bfcdabb74a447a2b8bd17e);
+            
+        
+
+        circle_marker_52de1b7115cf3e58e9d57a0202943cc1.bindPopup(popup_f8e48f8e343e70e39bc0e1cb83d7b645)
+        ;
+
+        
+    
+    
+            circle_marker_52de1b7115cf3e58e9d57a0202943cc1.bindTooltip(
+                `<div>
+                     NAP-CALI-FLO-0001
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_17179230d3f091c28829bd35fadb7259 = L.circleMarker(
+                [3.4807, -76.5223],
+                {"bubblingMouseEvents": true, "color": "#16803c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#16803c", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b6e9b1a939ce94192bdc080fdaabe1cf);
+        
+    
+        var popup_529b6684425929945b68fb62c5b5dfaa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_58470488090cf869d11af30d32e5d741 = $(`<div id="html_58470488090cf869d11af30d32e5d741" style="width: 100.0%; height: 100.0%;"><b>NAP-CALI-FLO-0002</b><br/>Cluster ficticio: CL-CALI-FLO-01<br/>Mufla alimentadora: MF-CALI-FLO-0002<br/>DATO FICTICIO: ubicación y conexión inventadas para demostración</div>`)[0];
+                popup_529b6684425929945b68fb62c5b5dfaa.setContent(html_58470488090cf869d11af30d32e5d741);
+            
+        
+
+        circle_marker_17179230d3f091c28829bd35fadb7259.bindPopup(popup_529b6684425929945b68fb62c5b5dfaa)
+        ;
+
+        
+    
+    
+            circle_marker_17179230d3f091c28829bd35fadb7259.bindTooltip(
+                `<div>
+                     NAP-CALI-FLO-0002
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a33aa3e5a8879f664b4ed0f720b9d4c8 = L.circleMarker(
+                [3.482, -76.5208],
+                {"bubblingMouseEvents": true, "color": "#16803c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#16803c", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b6e9b1a939ce94192bdc080fdaabe1cf);
+        
+    
+        var popup_10b71fb27d7fe055b6ad317357f519bb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bd4d18815b2f32bd436df2fafb089ae4 = $(`<div id="html_bd4d18815b2f32bd436df2fafb089ae4" style="width: 100.0%; height: 100.0%;"><b>NAP-CALI-FLO-0003</b><br/>Cluster ficticio: CL-CALI-FLO-01<br/>Mufla alimentadora: MF-CALI-FLO-0002<br/>DATO FICTICIO: ubicación y conexión inventadas para demostración</div>`)[0];
+                popup_10b71fb27d7fe055b6ad317357f519bb.setContent(html_bd4d18815b2f32bd436df2fafb089ae4);
+            
+        
+
+        circle_marker_a33aa3e5a8879f664b4ed0f720b9d4c8.bindPopup(popup_10b71fb27d7fe055b6ad317357f519bb)
+        ;
+
+        
+    
+    
+            circle_marker_a33aa3e5a8879f664b4ed0f720b9d4c8.bindTooltip(
+                `<div>
+                     NAP-CALI-FLO-0003
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_09d6ee7f03330064fbd5fdf983837226 = L.circleMarker(
+                [3.4833, -76.5235],
+                {"bubblingMouseEvents": true, "color": "#16803c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#16803c", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b6e9b1a939ce94192bdc080fdaabe1cf);
+        
+    
+        var popup_24edc0e0431f4e47b50c08c7f99b0221 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8365ab1548de559f0aa455b173a96cd4 = $(`<div id="html_8365ab1548de559f0aa455b173a96cd4" style="width: 100.0%; height: 100.0%;"><b>NAP-CALI-FLO-0004</b><br/>Cluster ficticio: CL-CALI-FLO-01<br/>Mufla alimentadora: MF-CALI-FLO-0003<br/>DATO FICTICIO: ubicación y conexión inventadas para demostración</div>`)[0];
+                popup_24edc0e0431f4e47b50c08c7f99b0221.setContent(html_8365ab1548de559f0aa455b173a96cd4);
+            
+        
+
+        circle_marker_09d6ee7f03330064fbd5fdf983837226.bindPopup(popup_24edc0e0431f4e47b50c08c7f99b0221)
+        ;
+
+        
+    
+    
+            circle_marker_09d6ee7f03330064fbd5fdf983837226.bindTooltip(
+                `<div>
+                     NAP-CALI-FLO-0004
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c77a8ed66ce676c81fe000a60458a489 = L.circleMarker(
+                [3.4776, -76.5197],
+                {"bubblingMouseEvents": true, "color": "#16803c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#16803c", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b6e9b1a939ce94192bdc080fdaabe1cf);
+        
+    
+        var popup_4abbea7189832888d0f2eacc247cb622 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_26726a06a40f3916894ef876927a2fd3 = $(`<div id="html_26726a06a40f3916894ef876927a2fd3" style="width: 100.0%; height: 100.0%;"><b>NAP-CALI-FLO-0005</b><br/>Cluster ficticio: CL-CALI-FLO-01<br/>Mufla alimentadora: MF-CALI-FLO-0004<br/>DATO FICTICIO: ubicación y conexión inventadas para demostración</div>`)[0];
+                popup_4abbea7189832888d0f2eacc247cb622.setContent(html_26726a06a40f3916894ef876927a2fd3);
+            
+        
+
+        circle_marker_c77a8ed66ce676c81fe000a60458a489.bindPopup(popup_4abbea7189832888d0f2eacc247cb622)
+        ;
+
+        
+    
+    
+            circle_marker_c77a8ed66ce676c81fe000a60458a489.bindTooltip(
+                `<div>
+                     NAP-CALI-FLO-0005
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5184a0253a251b07ab71d252231a5878 = L.circleMarker(
+                [3.4796, -76.5272],
+                {"bubblingMouseEvents": true, "color": "#16803c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#16803c", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b6e9b1a939ce94192bdc080fdaabe1cf);
+        
+    
+        var popup_dc7ec7420ef9b65c950e1fd2c32143ce = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_161a3db40979acd5046a29b4bb7caa09 = $(`<div id="html_161a3db40979acd5046a29b4bb7caa09" style="width: 100.0%; height: 100.0%;"><b>NAP-CALI-FLO-0006</b><br/>Cluster ficticio: CL-CALI-FLO-01<br/>Mufla alimentadora: MF-CALI-FLO-0005<br/>DATO FICTICIO: ubicación y conexión inventadas para demostración</div>`)[0];
+                popup_dc7ec7420ef9b65c950e1fd2c32143ce.setContent(html_161a3db40979acd5046a29b4bb7caa09);
+            
+        
+
+        circle_marker_5184a0253a251b07ab71d252231a5878.bindPopup(popup_dc7ec7420ef9b65c950e1fd2c32143ce)
+        ;
+
+        
+    
+    
+            circle_marker_5184a0253a251b07ab71d252231a5878.bindTooltip(
+                `<div>
+                     NAP-CALI-FLO-0006
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_b6e9b1a939ce94192bdc080fdaabe1cf.addTo(map_2ae609ae3ca9084eb440cc7664d58b17);
+        
+    
+            var layer_control_19d487169a3a4fd0b404ed35e8ebaf55_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_fe417404df58a154fb8cc824b9551295,
+                },
+                overlays :  {
+                    "Trazados ficticios" : feature_group_06e5f4fd1bef2162d90874484303134d,
+                    "Muflas (ejemplo)" : feature_group_4c6a5918bb4b7926c2c7b64571eefa04,
+                    "Cluster CL-CALI-FLO-01 (ficticio)" : feature_group_b6e9b1a939ce94192bdc080fdaabe1cf,
+                },
+            };
+            let layer_control_19d487169a3a4fd0b404ed35e8ebaf55 = L.control.layers(
+                layer_control_19d487169a3a4fd0b404ed35e8ebaf55_layers.base_layers,
+                layer_control_19d487169a3a4fd0b404ed35e8ebaf55_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_2ae609ae3ca9084eb440cc7664d58b17);
+
+        
+</script>
+</html>

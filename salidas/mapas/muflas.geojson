@@ -1,0 +1,568 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "mufla",
+        "id_mufla": "MF-CALI-FLO-0001",
+        "tipo": "aerea",
+        "barrio": "La Flora",
+        "direccion_referencia": "Esquina de referencia Calle 52 con Avenida 4 Norte",
+        "numero_poste": "PF-001",
+        "cable_entrada": "CALI-FLO-TR01",
+        "cable_salida": "CALI-FLO-TR02",
+        "fibras_empalmadas": "24",
+        "estado": "activa",
+        "fecha_instalacion": "2024-01-15",
+        "fecha_ultimo_trabajo": "2025-02-10",
+        "tecnico_responsable": "Tecnico de ejemplo",
+        "url_foto": "",
+        "observaciones": "DATO DE EJEMPLO: validar ubicación y datos en campo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5251,
+          3.4789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "mufla",
+        "id_mufla": "MF-CALI-FLO-0002",
+        "tipo": "subterranea",
+        "barrio": "La Flora",
+        "direccion_referencia": "Cerca del parque del barrio La Flora",
+        "numero_poste": "",
+        "cable_entrada": "CALI-FLO-TR02",
+        "cable_salida": "CALI-FLO-TR03",
+        "fibras_empalmadas": "12",
+        "estado": "activa",
+        "fecha_instalacion": "2024-02-20",
+        "fecha_ultimo_trabajo": "2025-01-18",
+        "tecnico_responsable": "Tecnico de ejemplo",
+        "url_foto": "",
+        "observaciones": "DATO DE EJEMPLO: validar ubicación y datos en campo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5218,
+          3.4812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "mufla",
+        "id_mufla": "MF-CALI-FLO-0003",
+        "tipo": "pedestal",
+        "barrio": "La Flora",
+        "direccion_referencia": "Referencia sobre la Avenida 6 Norte",
+        "numero_poste": "",
+        "cable_entrada": "CALI-FLO-TR03",
+        "cable_salida": "CALI-FLO-TR04",
+        "fibras_empalmadas": "48",
+        "estado": "mantenimiento",
+        "fecha_instalacion": "2024-03-05",
+        "fecha_ultimo_trabajo": "2025-03-12",
+        "tecnico_responsable": "Tecnico de ejemplo",
+        "url_foto": "",
+        "observaciones": "DATO DE EJEMPLO: validar ubicación y datos en campo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.524,
+          3.4841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "mufla",
+        "id_mufla": "MF-CALI-FLO-0004",
+        "tipo": "aerea",
+        "barrio": "La Flora",
+        "direccion_referencia": "Referencia cerca de Calle 48 Norte",
+        "numero_poste": "PF-004",
+        "cable_entrada": "CALI-FLO-TR04",
+        "cable_salida": "CALI-FLO-TR05",
+        "fibras_empalmadas": "24",
+        "estado": "activa",
+        "fecha_instalacion": "2024-04-11",
+        "fecha_ultimo_trabajo": "2025-02-22",
+        "tecnico_responsable": "Tecnico de ejemplo",
+        "url_foto": "",
+        "observaciones": "DATO DE EJEMPLO: validar ubicación y datos en campo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5189,
+          3.4768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "mufla",
+        "id_mufla": "MF-CALI-FLO-0005",
+        "tipo": "subterranea",
+        "barrio": "La Flora",
+        "direccion_referencia": "Referencia cerca de Avenida 3 Norte",
+        "numero_poste": "",
+        "cable_entrada": "CALI-FLO-TR05",
+        "cable_salida": "CALI-FLO-TR06",
+        "fibras_empalmadas": "12",
+        "estado": "activa",
+        "fecha_instalacion": "2024-05-09",
+        "fecha_ultimo_trabajo": "2025-03-01",
+        "tecnico_responsable": "Tecnico de ejemplo",
+        "url_foto": "",
+        "observaciones": "DATO DE EJEMPLO: validar ubicación y datos en campo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.529,
+          3.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "NAP",
+        "id_nap": "NAP-CALI-FLO-0001",
+        "cluster": "CL-CALI-FLO-01",
+        "mufla_alimentadora": "MF-CALI-FLO-0001",
+        "observaciones": "DATO FICTICIO: ubicación y conexión inventadas para demostración",
+        "dato": "FICTICIO - NO USAR EN CAMPO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5245,
+          3.4795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "NAP",
+        "id_nap": "NAP-CALI-FLO-0002",
+        "cluster": "CL-CALI-FLO-01",
+        "mufla_alimentadora": "MF-CALI-FLO-0002",
+        "observaciones": "DATO FICTICIO: ubicación y conexión inventadas para demostración",
+        "dato": "FICTICIO - NO USAR EN CAMPO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5223,
+          3.4807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "NAP",
+        "id_nap": "NAP-CALI-FLO-0003",
+        "cluster": "CL-CALI-FLO-01",
+        "mufla_alimentadora": "MF-CALI-FLO-0002",
+        "observaciones": "DATO FICTICIO: ubicación y conexión inventadas para demostración",
+        "dato": "FICTICIO - NO USAR EN CAMPO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5208,
+          3.482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "NAP",
+        "id_nap": "NAP-CALI-FLO-0004",
+        "cluster": "CL-CALI-FLO-01",
+        "mufla_alimentadora": "MF-CALI-FLO-0003",
+        "observaciones": "DATO FICTICIO: ubicación y conexión inventadas para demostración",
+        "dato": "FICTICIO - NO USAR EN CAMPO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5235,
+          3.4833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "NAP",
+        "id_nap": "NAP-CALI-FLO-0005",
+        "cluster": "CL-CALI-FLO-01",
+        "mufla_alimentadora": "MF-CALI-FLO-0004",
+        "observaciones": "DATO FICTICIO: ubicación y conexión inventadas para demostración",
+        "dato": "FICTICIO - NO USAR EN CAMPO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5197,
+          3.4776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "NAP",
+        "id_nap": "NAP-CALI-FLO-0006",
+        "cluster": "CL-CALI-FLO-01",
+        "mufla_alimentadora": "MF-CALI-FLO-0005",
+        "observaciones": "DATO FICTICIO: ubicación y conexión inventadas para demostración",
+        "dato": "FICTICIO - NO USAR EN CAMPO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5272,
+          3.4796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "tramo_ficticio",
+        "id_tramo": "TR-FLO-001",
+        "cable": "CALI-FLO-TR01",
+        "origen": "MF-CALI-FLO-0001",
+        "destino": "MF-CALI-FLO-0002",
+        "tipo_cable": "troncal",
+        "observaciones": "DATO FICTICIO: recorrido esquemático inventado",
+        "dato": "FICTICIO - NO USAR EN CAMPO"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -76.5251,
+            3.4789
+          ],
+          [
+            -76.524,
+            3.4795
+          ],
+          [
+            -76.523,
+            3.4802
+          ],
+          [
+            -76.5218,
+            3.4812
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "tramo_ficticio",
+        "id_tramo": "TR-FLO-002",
+        "cable": "CALI-FLO-TR02",
+        "origen": "MF-CALI-FLO-0002",
+        "destino": "MF-CALI-FLO-0003",
+        "tipo_cable": "troncal",
+        "observaciones": "DATO FICTICIO: recorrido esquemático inventado",
+        "dato": "FICTICIO - NO USAR EN CAMPO"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -76.5218,
+            3.4812
+          ],
+          [
+            -76.522,
+            3.482
+          ],
+          [
+            -76.5228,
+            3.483
+          ],
+          [
+            -76.524,
+            3.4841
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "tramo_ficticio",
+        "id_tramo": "TR-FLO-003",
+        "cable": "CALI-FLO-TR03",
+        "origen": "MF-CALI-FLO-0003",
+        "destino": "MF-CALI-FLO-0004",
+        "tipo_cable": "troncal",
+        "observaciones": "DATO FICTICIO: recorrido esquemático inventado",
+        "dato": "FICTICIO - NO USAR EN CAMPO"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -76.524,
+            3.4841
+          ],
+          [
+            -76.5225,
+            3.4828
+          ],
+          [
+            -76.521,
+            3.481
+          ],
+          [
+            -76.52,
+            3.479
+          ],
+          [
+            -76.5189,
+            3.4768
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "tramo_ficticio",
+        "id_tramo": "TR-FLO-004",
+        "cable": "CALI-FLO-TR04",
+        "origen": "MF-CALI-FLO-0004",
+        "destino": "MF-CALI-FLO-0005",
+        "tipo_cable": "troncal",
+        "observaciones": "DATO FICTICIO: recorrido esquemático inventado",
+        "dato": "FICTICIO - NO USAR EN CAMPO"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -76.5189,
+            3.4768
+          ],
+          [
+            -76.521,
+            3.4775
+          ],
+          [
+            -76.524,
+            3.4786
+          ],
+          [
+            -76.529,
+            3.48
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "tramo_ficticio",
+        "id_tramo": "BR-FLO-001",
+        "cable": "CALI-FLO-DIST-01",
+        "origen": "MF-CALI-FLO-0001",
+        "destino": "NAP-CALI-FLO-0001",
+        "tipo_cable": "distribucion",
+        "observaciones": "DATO FICTICIO: ramal de demostración",
+        "dato": "FICTICIO - NO USAR EN CAMPO"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -76.5251,
+            3.4789
+          ],
+          [
+            -76.5248,
+            3.4792
+          ],
+          [
+            -76.5245,
+            3.4795
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "tramo_ficticio",
+        "id_tramo": "BR-FLO-002",
+        "cable": "CALI-FLO-DIST-02",
+        "origen": "MF-CALI-FLO-0002",
+        "destino": "NAP-CALI-FLO-0002",
+        "tipo_cable": "distribucion",
+        "observaciones": "DATO FICTICIO: ramal de demostración",
+        "dato": "FICTICIO - NO USAR EN CAMPO"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -76.5218,
+            3.4812
+          ],
+          [
+            -76.5221,
+            3.481
+          ],
+          [
+            -76.5223,
+            3.4807
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "tramo_ficticio",
+        "id_tramo": "BR-FLO-003",
+        "cable": "CALI-FLO-DIST-03",
+        "origen": "MF-CALI-FLO-0002",
+        "destino": "NAP-CALI-FLO-0003",
+        "tipo_cable": "distribucion",
+        "observaciones": "DATO FICTICIO: ramal de demostración",
+        "dato": "FICTICIO - NO USAR EN CAMPO"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -76.5218,
+            3.4812
+          ],
+          [
+            -76.5213,
+            3.4816
+          ],
+          [
+            -76.5208,
+            3.482
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "tramo_ficticio",
+        "id_tramo": "BR-FLO-004",
+        "cable": "CALI-FLO-DIST-04",
+        "origen": "MF-CALI-FLO-0003",
+        "destino": "NAP-CALI-FLO-0004",
+        "tipo_cable": "distribucion",
+        "observaciones": "DATO FICTICIO: ramal de demostración",
+        "dato": "FICTICIO - NO USAR EN CAMPO"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -76.524,
+            3.4841
+          ],
+          [
+            -76.5238,
+            3.4837
+          ],
+          [
+            -76.5235,
+            3.4833
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "tramo_ficticio",
+        "id_tramo": "BR-FLO-005",
+        "cable": "CALI-FLO-DIST-05",
+        "origen": "MF-CALI-FLO-0004",
+        "destino": "NAP-CALI-FLO-0005",
+        "tipo_cable": "distribucion",
+        "observaciones": "DATO FICTICIO: ramal de demostración",
+        "dato": "FICTICIO - NO USAR EN CAMPO"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -76.5189,
+            3.4768
+          ],
+          [
+            -76.5192,
+            3.4772
+          ],
+          [
+            -76.5197,
+            3.4776
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "elemento": "tramo_ficticio",
+        "id_tramo": "BR-FLO-006",
+        "cable": "CALI-FLO-DIST-06",
+        "origen": "MF-CALI-FLO-0005",
+        "destino": "NAP-CALI-FLO-0006",
+        "tipo_cable": "distribucion",
+        "observaciones": "DATO FICTICIO: ramal de demostración",
+        "dato": "FICTICIO - NO USAR EN CAMPO"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -76.529,
+            3.48
+          ],
+          [
+            -76.528,
+            3.4798
+          ],
+          [
+            -76.5272,
+            3.4796
+          ]
+        ]
+      }
+    }
+  ]
+}

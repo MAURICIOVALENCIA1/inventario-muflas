@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>RED FICTICIA - NO USAR EN CAMPO</name>
+<Placemark>
+<name>MF-CALI-FLO-0001 - aerea</name>
+<description><![CDATA[id_mufla: MF-CALI-FLO-0001<br/>tipo: aerea<br/>barrio: La Flora<br/>direccion_referencia: Esquina de referencia Calle 52 con Avenida 4 Norte<br/>numero_poste: PF-001<br/>latitud: 3.4789<br/>longitud: -76.5251<br/>cable_entrada: CALI-FLO-TR01<br/>cable_salida: CALI-FLO-TR02<br/>fibras_empalmadas: 24<br/>estado: activa<br/>fecha_instalacion: 2024-01-15<br/>fecha_ultimo_trabajo: 2025-02-10<br/>tecnico_responsable: Tecnico de ejemplo<br/>observaciones: DATO DE EJEMPLO: validar ubicación y datos en campo]]></description>
+<Point><coordinates>-76.5251,3.4789,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MF-CALI-FLO-0002 - subterranea</name>
+<description><![CDATA[id_mufla: MF-CALI-FLO-0002<br/>tipo: subterranea<br/>barrio: La Flora<br/>direccion_referencia: Cerca del parque del barrio La Flora<br/>latitud: 3.4812<br/>longitud: -76.5218<br/>cable_entrada: CALI-FLO-TR02<br/>cable_salida: CALI-FLO-TR03<br/>fibras_empalmadas: 12<br/>estado: activa<br/>fecha_instalacion: 2024-02-20<br/>fecha_ultimo_trabajo: 2025-01-18<br/>tecnico_responsable: Tecnico de ejemplo<br/>observaciones: DATO DE EJEMPLO: validar ubicación y datos en campo]]></description>
+<Point><coordinates>-76.5218,3.4812,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MF-CALI-FLO-0003 - pedestal</name>
+<description><![CDATA[id_mufla: MF-CALI-FLO-0003<br/>tipo: pedestal<br/>barrio: La Flora<br/>direccion_referencia: Referencia sobre la Avenida 6 Norte<br/>latitud: 3.4841<br/>longitud: -76.524<br/>cable_entrada: CALI-FLO-TR03<br/>cable_salida: CALI-FLO-TR04<br/>fibras_empalmadas: 48<br/>estado: mantenimiento<br/>fecha_instalacion: 2024-03-05<br/>fecha_ultimo_trabajo: 2025-03-12<br/>tecnico_responsable: Tecnico de ejemplo<br/>observaciones: DATO DE EJEMPLO: validar ubicación y datos en campo]]></description>
+<Point><coordinates>-76.524,3.4841,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MF-CALI-FLO-0004 - aerea</name>
+<description><![CDATA[id_mufla: MF-CALI-FLO-0004<br/>tipo: aerea<br/>barrio: La Flora<br/>direccion_referencia: Referencia cerca de Calle 48 Norte<br/>numero_poste: PF-004<br/>latitud: 3.4768<br/>longitud: -76.5189<br/>cable_entrada: CALI-FLO-TR04<br/>cable_salida: CALI-FLO-TR05<br/>fibras_empalmadas: 24<br/>estado: activa<br/>fecha_instalacion: 2024-04-11<br/>fecha_ultimo_trabajo: 2025-02-22<br/>tecnico_responsable: Tecnico de ejemplo<br/>observaciones: DATO DE EJEMPLO: validar ubicación y datos en campo]]></description>
+<Point><coordinates>-76.5189,3.4768,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MF-CALI-FLO-0005 - subterranea</name>
+<description><![CDATA[id_mufla: MF-CALI-FLO-0005<br/>tipo: subterranea<br/>barrio: La Flora<br/>direccion_referencia: Referencia cerca de Avenida 3 Norte<br/>latitud: 3.48<br/>longitud: -76.529<br/>cable_entrada: CALI-FLO-TR05<br/>cable_salida: CALI-FLO-TR06<br/>fibras_empalmadas: 12<br/>estado: activa<br/>fecha_instalacion: 2024-05-09<br/>fecha_ultimo_trabajo: 2025-03-01<br/>tecnico_responsable: Tecnico de ejemplo<br/>observaciones: DATO DE EJEMPLO: validar ubicación y datos en campo]]></description>
+<Point><coordinates>-76.529,3.48,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>NAP-CALI-FLO-0001</name>
+<description><![CDATA[<b>NAP FICTICIA</b><br/>Cluster: CL-CALI-FLO-01<br/>Mufla alimentadora: MF-CALI-FLO-0001<br/>DATO FICTICIO: ubicación y conexión inventadas para demostración]]></description>
+<Point><coordinates>-76.5245,3.4795,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>NAP-CALI-FLO-0002</name>
+<description><![CDATA[<b>NAP FICTICIA</b><br/>Cluster: CL-CALI-FLO-01<br/>Mufla alimentadora: MF-CALI-FLO-0002<br/>DATO FICTICIO: ubicación y conexión inventadas para demostración]]></description>
+<Point><coordinates>-76.5223,3.4807,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>NAP-CALI-FLO-0003</name>
+<description><![CDATA[<b>NAP FICTICIA</b><br/>Cluster: CL-CALI-FLO-01<br/>Mufla alimentadora: MF-CALI-FLO-0002<br/>DATO FICTICIO: ubicación y conexión inventadas para demostración]]></description>
+<Point><coordinates>-76.5208,3.482,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>NAP-CALI-FLO-0004</name>
+<description><![CDATA[<b>NAP FICTICIA</b><br/>Cluster: CL-CALI-FLO-01<br/>Mufla alimentadora: MF-CALI-FLO-0003<br/>DATO FICTICIO: ubicación y conexión inventadas para demostración]]></description>
+<Point><coordinates>-76.5235,3.4833,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>NAP-CALI-FLO-0005</name>
+<description><![CDATA[<b>NAP FICTICIA</b><br/>Cluster: CL-CALI-FLO-01<br/>Mufla alimentadora: MF-CALI-FLO-0004<br/>DATO FICTICIO: ubicación y conexión inventadas para demostración]]></description>
+<Point><coordinates>-76.5197,3.4776,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>NAP-CALI-FLO-0006</name>
+<description><![CDATA[<b>NAP FICTICIA</b><br/>Cluster: CL-CALI-FLO-01<br/>Mufla alimentadora: MF-CALI-FLO-0005<br/>DATO FICTICIO: ubicación y conexión inventadas para demostración]]></description>
+<Point><coordinates>-76.5272,3.4796,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>TR-FLO-001 - CALI-FLO-TR01</name>
+<description><![CDATA[<b>TRAZADO FICTICIO</b><br/>Origen: MF-CALI-FLO-0001<br/>Destino: MF-CALI-FLO-0002<br/>Tipo: troncal<br/>DATO FICTICIO: recorrido esquemático inventado]]></description>
+<LineString><tessellate>1</tessellate><coordinates>-76.5251,3.4789,0 -76.524,3.4795,0 -76.523,3.4802,0 -76.5218,3.4812,0</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>TR-FLO-002 - CALI-FLO-TR02</name>
+<description><![CDATA[<b>TRAZADO FICTICIO</b><br/>Origen: MF-CALI-FLO-0002<br/>Destino: MF-CALI-FLO-0003<br/>Tipo: troncal<br/>DATO FICTICIO: recorrido esquemático inventado]]></description>
+<LineString><tessellate>1</tessellate><coordinates>-76.5218,3.4812,0 -76.522,3.482,0 -76.5228,3.483,0 -76.524,3.4841,0</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>TR-FLO-003 - CALI-FLO-TR03</name>
+<description><![CDATA[<b>TRAZADO FICTICIO</b><br/>Origen: MF-CALI-FLO-0003<br/>Destino: MF-CALI-FLO-0004<br/>Tipo: troncal<br/>DATO FICTICIO: recorrido esquemático inventado]]></description>
+<LineString><tessellate>1</tessellate><coordinates>-76.524,3.4841,0 -76.5225,3.4828,0 -76.521,3.481,0 -76.52,3.479,0 -76.5189,3.4768,0</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>TR-FLO-004 - CALI-FLO-TR04</name>
+<description><![CDATA[<b>TRAZADO FICTICIO</b><br/>Origen: MF-CALI-FLO-0004<br/>Destino: MF-CALI-FLO-0005<br/>Tipo: troncal<br/>DATO FICTICIO: recorrido esquemático inventado]]></description>
+<LineString><tessellate>1</tessellate><coordinates>-76.5189,3.4768,0 -76.521,3.4775,0 -76.524,3.4786,0 -76.529,3.48,0</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>BR-FLO-001 - CALI-FLO-DIST-01</name>
+<description><![CDATA[<b>TRAZADO FICTICIO</b><br/>Origen: MF-CALI-FLO-0001<br/>Destino: NAP-CALI-FLO-0001<br/>Tipo: distribucion<br/>DATO FICTICIO: ramal de demostración]]></description>
+<LineString><tessellate>1</tessellate><coordinates>-76.5251,3.4789,0 -76.5248,3.4792,0 -76.5245,3.4795,0</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>BR-FLO-002 - CALI-FLO-DIST-02</name>
+<description><![CDATA[<b>TRAZADO FICTICIO</b><br/>Origen: MF-CALI-FLO-0002<br/>Destino: NAP-CALI-FLO-0002<br/>Tipo: distribucion<br/>DATO FICTICIO: ramal de demostración]]></description>
+<LineString><tessellate>1</tessellate><coordinates>-76.5218,3.4812,0 -76.5221,3.481,0 -76.5223,3.4807,0</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>BR-FLO-003 - CALI-FLO-DIST-03</name>
+<description><![CDATA[<b>TRAZADO FICTICIO</b><br/>Origen: MF-CALI-FLO-0002<br/>Destino: NAP-CALI-FLO-0003<br/>Tipo: distribucion<br/>DATO FICTICIO: ramal de demostración]]></description>
+<LineString><tessellate>1</tessellate><coordinates>-76.5218,3.4812,0 -76.5213,3.4816,0 -76.5208,3.482,0</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>BR-FLO-004 - CALI-FLO-DIST-04</name>
+<description><![CDATA[<b>TRAZADO FICTICIO</b><br/>Origen: MF-CALI-FLO-0003<br/>Destino: NAP-CALI-FLO-0004<br/>Tipo: distribucion<br/>DATO FICTICIO: ramal de demostración]]></description>
+<LineString><tessellate>1</tessellate><coordinates>-76.524,3.4841,0 -76.5238,3.4837,0 -76.5235,3.4833,0</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>BR-FLO-005 - CALI-FLO-DIST-05</name>
+<description><![CDATA[<b>TRAZADO FICTICIO</b><br/>Origen: MF-CALI-FLO-0004<br/>Destino: NAP-CALI-FLO-0005<br/>Tipo: distribucion<br/>DATO FICTICIO: ramal de demostración]]></description>
+<LineString><tessellate>1</tessellate><coordinates>-76.5189,3.4768,0 -76.5192,3.4772,0 -76.5197,3.4776,0</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>BR-FLO-006 - CALI-FLO-DIST-06</name>
+<description><![CDATA[<b>TRAZADO FICTICIO</b><br/>Origen: MF-CALI-FLO-0005<br/>Destino: NAP-CALI-FLO-0006<br/>Tipo: distribucion<br/>DATO FICTICIO: ramal de demostración]]></description>
+<LineString><tessellate>1</tessellate><coordinates>-76.529,3.48,0 -76.528,3.4798,0 -76.5272,3.4796,0</coordinates></LineString>
+</Placemark>
+</Document></kml>
